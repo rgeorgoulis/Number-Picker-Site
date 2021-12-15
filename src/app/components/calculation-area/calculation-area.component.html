@@ -1,0 +1,24 @@
+<div class="grid-container">
+    <div class="bet-container">
+    <div class="grid-child purple">
+        <app-bet-selector (betEvent)="receiveBetMessage($event)" (betPressedEvent)="receiveBetPressedMessage()"></app-bet-selector>
+    </div>
+    </div>
+    <div class="calculation-container">
+        <div class="grid-child-calculation">
+            <div>Numbers Selected :</div>
+            <div *ngFor="let item of clicked_list_ | slice:0:6;">Mark: {{item}} </div>   
+
+                <div class="input-group input-group-sm col-sm-12 m-0 p-0">
+                    <div>Total bet : {{bett}} </div>
+                </div>    
+            </div> 
+        </div>   
+        <div class="number-selector-container">
+    <div class="grid-child blue">
+        <app-number-selector (messageEvent)="receiveMessage($event)" (listEvent)="receiveNumberMessage($event)" (data)="eventHandler($event)" (clearEvent)="receiveClear($event)" ></app-number-selector>
+    </div>
+    </div>
+    
+</div>
+

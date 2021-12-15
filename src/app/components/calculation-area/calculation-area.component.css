@@ -1,0 +1,60 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 80px);
+}
+.main-container {
+  background-color:  rgb(218, 147, 147);
+height: 100%;
+display: flex;
+}
+.bet-container {
+  background-color: rgb(0, 162, 255);
+flex: 1 1 1;
+margin-left: 0px;
+margin-top: 50px;
+margin-right: 600px;
+}
+.calculation-container {
+background-color: rgb(0, 162, 255);
+flex: 1 1 1;
+margin-left: 300px;
+margin-top: 120px;
+margin-right: 300px;
+}
+.number-selector-container{
+  background-color:  rgb(218, 147, 147);
+flex: 1 1 1;
+margin-left: 500px;
+margin-top:  -374px;
+margin-right: 000px;
+}
+.half-containers {
+background-color: rgb(116, 248, 193);
+margin-right: 300px;
+margin-top: 120px;
+flex: 1;
+overflow: auto;
+}
+.btn {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid-child-calculation{
+  margin-right: 200px;
+}
+.h1 { 
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 275px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; }
+
+ 
