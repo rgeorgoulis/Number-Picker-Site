@@ -1,4 +1,4 @@
-# A05v2
+# Number Picker site
 # LINK TO APP https://festive-goldwasser-31d290.netlify.app/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
