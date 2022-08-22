@@ -4,7 +4,7 @@
     grid-template-rows: repeat(6, 80px);
  }
  .main-container {
-  background-color: rgb(0, 162, 255);
+  background-color: #00a2ff;
   width: 120%;
   height: 120%;
   display: flex;
